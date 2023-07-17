@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog
+---
+
+{% include head.html %}
+<body id="container">
+  {% include nav.html %}
+    <h2>I write along as I learn stuffs 🤷‍♀️</h2>
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+    {% endfor %}
+  </ul>
+</body>

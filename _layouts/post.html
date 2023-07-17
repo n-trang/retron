@@ -1,5 +1,18 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
 
-{{ content }}
+  <body id="container">
+    {% include nav-bar.html %}
+
+    <div id="content">
+      <div id="post">
+        {{ content }}
+        <b
+          ><p>go back to <a href="/blog"> all posts</a></p></b
+        >
+      </div>
+      <div id="toc">{{ content | toc_only }}</div>
+    </div>
+  </body>
+</html>

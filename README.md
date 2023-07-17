@@ -8,19 +8,19 @@ TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+1. Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
 gem "retron"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+2. And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: retron
 ```
 
-And then execute:
+3. And then execute:
 
     $ bundle
 
